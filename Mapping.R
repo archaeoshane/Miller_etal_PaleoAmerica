@@ -6,7 +6,7 @@ library(tidyverse)
 
 spatial<- read.csv(file.choose()) #Strawn_PP.csv"
 biface <- read.csv(file.choose()) #biface_join.csv
-dates  <- read.csv(file.choose()) #biface_join.csv
+dates  <- read.csv(file.choose()) #dates.csv
 
 spatial$Thermal.Alteration<-as.factor(spatial$Thermal.Alteration)
 
